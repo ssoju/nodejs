@@ -1,0 +1,202 @@
+#header {
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #efefef;
+	font-weight: bold;
+	background-color: #1b1b1b;
+	background-image: -moz-linear-gradient(top,#222,#111);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#222),to(#111));
+	background-image: -webkit-linear-gradient(top,#222,#111);
+	background-image: -o-linear-gradient(top,#222,#111);
+	background-image: linear-gradient(to bottom,#222,#111);
+	background-repeat: repeat-x;
+	border-color: #252525;
+}
+#contain{
+  position: absolute;
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color:#ccc;
+}
+#content{
+  position: absolute;
+  top: 0;
+  right: 200px;
+  bottom: 0;
+  left: 0;
+}
+#content_show{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 72px;
+  right: 0;
+}
+#users_online{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+}
+#usersbar{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-box-shadow:-2px 2px 5px #292929;
+  -moz-box-shadow:-2px 2px 5px #292929;
+  box-shadow:-2px 2px 5px #292929;
+}
+#user_label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height:30px;
+  border-top-left-radius: 5px;
+	background-color: #1b1b1b;
+	background-image: -moz-linear-gradient(top,#454545,#392929);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#454545),to(#392929));
+	background-image: -webkit-linear-gradient(top,#454545,#392929);
+	background-image: -o-linear-gradient(top,#454545,#392929);
+	background-image: linear-gradient(to bottom,#454545,#392929);
+	background-repeat: repeat-x;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  color: #eee;
+}
+#users_list{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom-left-radius: 5px;
+  padding: 5px;
+}
+#users_list ul{
+  width:100%;
+  height:100%;
+  list-style: none;
+  overflow-x:hidden;
+  overflow-y:scroll;
+}
+#users_list ul li{
+  width: 155px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 5px;
+  cursor: pointer;
+  border-bottom: 1px dashed #666;
+}
+.sayingto{
+  background: #000099;
+  color: #fff;
+}
+#contents{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  overflow: auto;
+  box-shadow:3px 3px 3px rgba(0,0,0,.2);
+}
+
+#toolbar{
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  left: 0;
+  height: 4px;
+  background: #aaa;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #666;
+}
+#input_content_box{
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 110px;
+  bottom: 30px;
+  border-top-left-radius: 5px;
+  outline: none;
+  padding: 0;
+  overflow:hidden;
+}
+#input_content{
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  border-width:0;
+  padding-left: 10px;
+}
+#sayingto{
+	background-color: #555;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 110px;
+  bottom: 5px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+  border-bottom-left-radius: 5px;
+}
+#from
+{
+  color:#F90;
+  font-weight:bold;
+}
+#to{
+  color:#39F;
+  font-weight:bold
+}
+#content_saying{
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  height: 80px;
+  right: 0;
+}
+#say{
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  bottom: 5px;
+  width: 100px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 58px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 곡딕체, 굴림, arial;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #006dcc;
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#454545),to(#222));
+  background-image: -webkit-linear-gradient(top,#08c,#04c);
+  background-image: -o-linear-gradient(top,#08c,#04c);
+  background-image: linear-gradient(to bottom,#454545,#222);
+  background-image: -moz-linear-gradient(top,#08c,#04c);
+  background-repeat: repeat-x;
+  border-left:1px solid #777;
+}
